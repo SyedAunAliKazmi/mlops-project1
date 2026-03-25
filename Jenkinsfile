@@ -4,7 +4,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/mlops-project1.git'
+                    url: 'https://github.com/SyedAunAliKazmi/mlops-project1.git'
             }
         }
         stage('Build Docker Image') {
